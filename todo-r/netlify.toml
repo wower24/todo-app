@@ -1,0 +1,9 @@
+[build]
+  base = "todo-app/todo-r"
+  command = "npm run build"
+  publish = "todo-app/todo-r/dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
