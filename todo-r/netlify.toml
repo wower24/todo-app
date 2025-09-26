@@ -1,7 +1,7 @@
 [build]
-  base = "todo-app/todo-r"
+  base = "todo-r"
   command = "npm run build"
-  publish = "todo-app/todo-r/dist"
+  publish = "todo-r/dist"
 
 [[redirects]]
   from = "/*"
